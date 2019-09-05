@@ -13,4 +13,8 @@ export class SelectorComponent implements OnInit {
   ngOnInit() {
   }
 
+  go(dir:number){
+    this.dateService.changeMonth(dir)
+  }
+
 }
